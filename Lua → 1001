@@ -1,0 +1,8 @@
+--[[
+uri_1001 → Lua
+--]]
+-- Minha primeira resposta em lua
+X = tonumber(io.read())
+Y = tonumber(io.read())
+
+print('X = ' .. X + Y)
