@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+# uri_1001 → Python 3
+A = int(input())
+B = int(input())
+X = int(A + B)
+print('X = {}'.format(X))
