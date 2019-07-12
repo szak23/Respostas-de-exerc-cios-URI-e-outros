@@ -1,0 +1,5 @@
+# uri_1001 → Ruby
+A = gets.to_i
+B = gets.to_i
+X = A+B
+puts "X = #{X}"
