@@ -1,0 +1,13 @@
+// uri_1001 → Pascal (A primeira linguagem que aprendi)
+program uri_1001;
+
+var
+   x, y, soma: integer;
+
+begin
+  readln(x);
+  readln(y);
+  soma := x+y;
+  writeln('X = ', soma);
+  readln();
+end.            
