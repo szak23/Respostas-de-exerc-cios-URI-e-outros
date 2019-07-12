@@ -1,0 +1,10 @@
+--[[
+uri_1002 → Lua
+em lua temos que formatar a saída para termos o resultado esperado
+em 'termos' de casas decimais, pois para o compilador todos os números
+são reais
+--]]
+local raio = tonumber(io.read())
+local area = 3.14159 * raio * raio
+d = (string.format("%.4f", area))
+print(string.format("A=".. d))
