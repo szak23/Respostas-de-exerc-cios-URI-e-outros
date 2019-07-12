@@ -1,0 +1,5 @@
+# -*- coding: utf-8 -*-
+# Python 3 → uri_1002
+A = float(input())
+area = 3.14159 * (A * A)
+print('A={:.4f}'.format(area))
