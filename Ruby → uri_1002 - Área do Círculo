@@ -1,0 +1,4 @@
+# Ruby → uri_1002
+a = gets.to_f
+area = 3.14159*(a*a)
+puts "A=%.4f" % [area]
