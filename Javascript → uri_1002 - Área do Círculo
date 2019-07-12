@@ -1,0 +1,8 @@
+// uri_1002 → javascript
+// inicio trecho uri
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var lines = input.split('\n');
+// fim trecho uri
+var raio = Number(lines.shift());
+var area = 3.14159 * raio * raio;
+console.log(`A=${area.toFixed(4)}`);
