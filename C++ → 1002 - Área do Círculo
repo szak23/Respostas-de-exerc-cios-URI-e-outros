@@ -1,0 +1,16 @@
+#include <iostream>
+ 
+using namespace std;
+ 
+int main() {
+ 
+    //C ++ → uri_1002
+    double raio, area;
+    cout << fixed;
+    cout.precision(4);
+    cin >> raio;
+    area = 3.14159 * raio * raio;
+    cout << "A=" << area << endl;
+ 
+    return 0;
+}
