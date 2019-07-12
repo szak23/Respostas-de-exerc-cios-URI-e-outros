@@ -1,0 +1,21 @@
+-- Haskell → uri-1010
+import Text.Printf
+calcula1 :: Double -> Double -> Double
+calcula1 b c = (b * c)
+calcula2 :: Double -> Double -> Double
+calcula2 e f = (e * f)
+
+main = do
+   values <- getLine
+   values2 <- getLine
+   let list = words values
+   let list2 = words values2
+   let a = list !! 0
+   let b = list !! 1
+   let c = list !! 2
+   let d = list2 !! 0
+   let e = list2 !! 1
+   let f = list2 !! 2 
+   let total = (calcula1(read (b))(read(c))) + (calcula2(read(e))(read(f)))
+   putStr "VALOR A PAGAR: R$ "
+   printf "%.2f\n" $ total
