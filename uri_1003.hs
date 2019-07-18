@@ -1,4 +1,3 @@
--- uri_1003 → Haskell
 main :: IO ()
 main =
   do num1 <- getLine
